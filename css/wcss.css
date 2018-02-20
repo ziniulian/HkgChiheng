@@ -1,0 +1,165 @@
+
+
+*{margin:0px; padding:0px}
+#header,#footer,#main,#title,#main2{
+margin: 0 auto;
+
+text-align: center
+
+}
+#main,#title,#footercontext{
+width:1200px;
+border: 0px solid blue;
+}
+
+#header{
+
+height:200px;
+background:#F0FFF0 url("../img/titlepg.jpg") fixed top;
+border: 0px solid blue;
+}
+#title{
+height:65px;
+background-color:gray;
+}
+
+#titleul{
+font:12px verdana, arial, sans-serif; /* 设置文字大小和字体样式 */
+height:100px;
+text-align: center;
+}
+#titleul,#titleul li{
+list-style:none; /* 将默认的列表符号去掉 */
+padding:0; /* 将默认的内边距去掉 */
+margin:0 1px; /* 将默认的外边距去掉 */
+border: 0px solid blue;
+}
+#titleul li{
+float:left;
+width:237px;
+height:60px;
+font:16px verdana, arial, sans-serif; /* 设置文字大小和字体样式 */
+
+}
+#titleul li a {
+display:block; /* 将链接设为块级元素 */
+padding:25px 30px; /* 设置内边距 */
+background:#3A4953; /* 设置背景色 */
+color:#fff; /* 设置文字颜色 */
+text-decoration:none; /* 去掉下划线 */
+border-right:1px solid #000; /* 在左侧加上分隔线 */
+}
+#main{
+//background: darkgoldenrod;
+}
+#main-title{
+height:100px;
+background:red url("../img/maintitile1.jpg") no-repeat;
+
+}
+
+
+#main-body1{
+height:860px;
+background-color: #ccc;
+border: 1px solid green;
+}
+
+#photoul{
+font:12px verdana, arial, sans-serif; /* 设置文字大小和字体样式 */
+text-align: center;
+}
+#photoul,#photoul li{
+list-style:none; /* 将默认的列表符号去掉 */
+padding:0; /* 将默认的内边距去掉 */
+margin:10px 14px; /* 将默认的外边距去掉 */
+border: 0px solid yellow;
+}
+#photoul li{
+float:left;
+width:200px;
+height:400px;
+
+}
+#photoul li a {
+display:block; /* 将链接设为块级元素 */
+padding:0px 0px; /* 设置内边距 */
+background:#ccc; /* 设置背景色 */
+color:#fff; /* 设置文字颜色 */
+text-decoration:none; /* 去掉下划线 */
+
+}
+.founty{
+font:14px verdana, arial, sans-serif; /* 设置文字大小和字体样式 */	
+color:#000;
+}
+.founty2{
+font:14px verdana, arial, sans-serif; /* 设置文字大小和字体样式 */	
+color:#101018;
+}
+#model{
+font:18px verdana, arial, sans-serif; /* 设置文字大小和字体样式 */	
+color:blue;
+}
+#price{
+font:18px verdana, arial, sans-serif; /* 设置文字大小和字体样式 */	
+color:red;
+}
+.ray{
+color:#8B898E;
+}
+#instruction{
+color:#ccc;
+}
+#main-logo1{
+height:80px;
+background:red url("../img/logo-1.jpg") no-repeat;
+
+}
+#main-logo2{
+height:80px;
+background:red url("../img/logo-1.jpg") no-repeat;
+
+}
+#main-body2{
+height:860px;
+background-color: #ccc;
+border: 1px solid red;
+}
+#main-logo2{
+height:80px;
+background:red url("../img/maintitile1.jpg") ;
+
+}
+#footer{
+
+height: 140px;
+background: yellow;
+text-align: center;
+}
+
+#footerul{
+width:750px;
+height:50px;
+font:16px verdana, arial, sans-serif; /* 设置文字大小和字体样式 */
+
+border: 1px solid blue;
+margin:20px auto;
+text-align: center;
+}
+#footerul li{
+float:left;
+text-align: center;
+height:30px;
+border: 1px solid red;
+play: inline-block;
+list-style: none;
+width:120px;
+
+}
+#footercontext{
+margin:0 auto;
+height:70px;
+border: 1px solid red;
+
+}
