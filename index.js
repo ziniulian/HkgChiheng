@@ -19,6 +19,11 @@ srv.ro.get("/favicon.ico", function (req, res) {
 	});
 });
 
+// 返回服务名
+srv.ro.get("/myNam/", function (req, res) {
+	res.send("HKG");
+});
+
 // 静态主页设置
 srv.ro.setStaticDir("/", "./web");
 
